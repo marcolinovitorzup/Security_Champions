@@ -1,5 +1,4 @@
-
-<img src="images/Logo%20e%20Capa%20-%20Security%20Champions.jpg" alt="Logo de Champions">
+<img src="images/Logo%20e%20Capa%20-%20Security%20Champions.jpg" alt="Logo de Champions" width="1000">
 
 Este é desafio final do programa Security Champions, você está a um passo de se **tornar um Security Champions** e fazer a diferença no seu time.
 
@@ -18,5 +17,5 @@ Você pode usar a ferramenta de análise de código SAST - **HORUSEC**
 
 Consulte o **Guia** de melhores práticas de desenvolvimento seguro.
  
- [Orange](https://github.com/Orangestack-com/appsec-doc-org/tree/main/Guias)
- [ZupIT](https://github.com/ZupIT/appsec-guias/tree/main/Guias)
+ * [Orange](https://github.com/Orangestack-com/appsec-doc-org/tree/main/Guias)
+ * [ZupIT](https://github.com/ZupIT/appsec-guias/tree/main/Guias)
