@@ -6,14 +6,14 @@ Neste desafio trouxemos as 3 linguagens e você deve analisá-las e apontar onde
 
 ### Orientações:
 
-* Análise os códigos disponíveis no repositório
+* **Análise** os códigos disponíveis neste repositório.
 * Crie um **pull request** com seu nome, comentando onde localiza-se a vulnerabilidade no código.
 * Insira o grupo do time de appsec para aprovação **appsec-writer** na opção Reviewers do seu pull request.
 * Cada desafio **vale** 1 ponto.
 
 Caso de dúvidas mande mensagem no [Classroom](https://classroom.google.com/c/Mzc5NTg5NDI3MzQy/m/Mzg4MjgwNzgxOTMw/details)
 ### Dica:
-Você pode usar a ferramenta de análise de código SAST - **HORUSEC**
+Use a ferramenta de análise de código SAST - **HORUSEC**
 
 Consulte o **Guia** de melhores práticas de desenvolvimento seguro.
  
