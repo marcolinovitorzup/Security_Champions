@@ -18,4 +18,4 @@ Consulte os **Guias** de melhores práticas de desenvolvimento seguro.
  
  * [Orange](https://github.com/Orangestack-com/appsec-doc-org/tree/main/Guias)
  * [ZupIT](https://github.com/ZupIT/appsec-guias/tree/main/Guias)
- * [OWASP](https://owasp.org/Top10/pt_BR/)
+ * [OWASP TOP 10](https://owasp.org/Top10/pt_BR/)
