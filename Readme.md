@@ -14,8 +14,8 @@ Neste desafio trouxemos as 3 linguagens e você deve analisá-las e apontar onde
 Caso de dúvidas mande mensagem no [Classroom](https://classroom.google.com/c/Mzc5NTg5NDI3MzQy/m/Mzg4MjgwNzgxOTMw/details)
 ### Dica:
 Use a ferramenta de análise de código SAST - **HORUSEC**
-
-Consulte o **Guia** de melhores práticas de desenvolvimento seguro.
+Consulte os **Guias** de melhores práticas de desenvolvimento seguro.
  
  * [Orange](https://github.com/Orangestack-com/appsec-doc-org/tree/main/Guias)
  * [ZupIT](https://github.com/ZupIT/appsec-guias/tree/main/Guias)
+ * [OWASP](https://owasp.org/Top10/pt_BR/)
