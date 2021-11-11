@@ -1,4 +1,4 @@
-<img src="images/Logo%20e%20Capa%20-%20Security%20Champions.jpg" alt="Logo de Champions" width="1000">
+<img src="images/Logo%20e%20Capa%20-%20Security%20Champions.jpg" alt="Logo de Champions" width="900">
 
 Este é desafio final do programa Security Champions, você está a um passo de se **tornar um Security Champions** e fazer a diferença no seu time.
 
