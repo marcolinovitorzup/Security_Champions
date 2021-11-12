@@ -2,7 +2,7 @@
 
 **Olá Zupper!**
 
-Neste pequeno desafio, vamos propor um cenário e um problema e gostariamos que você descrevesse com suas palavras como resolver esse problema. 
+Neste pequeno desafio, vamos propor um cenário e um problema e gostaríamos que você analisasse e comentasse como resolver o esse problema.
 
 ## Cenário
 Uma imobiliária possuí um sistema de cadastro de novos imóveis que estão a venda.
