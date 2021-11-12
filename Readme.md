@@ -11,10 +11,10 @@ Neste desafio trouxemos as 3 linguagens e você deve analisá-las e apontar onde
 * Insira o grupo do time de appsec para aprovação **appsec-writer** na opção Reviewers do seu pull request.
 * Cada desafio **vale** 1 ponto.
 
-Caso de dúvidas mande mensagem no [Classroom](https://classroom.google.com/c/Mzc5NTg5NDI3MzQy/m/Mzg4MjgwNzgxOTMw/details)
+Caso de dúvidas mande mensagem no [Classroom](https://classroom.google.com/c/Mzc5NTg5NDI3MzQy/m/Mzg4MjgwNzgxOTMw/details).
 ### Dica:
-Use a ferramenta de análise de código SAST - **HORUSEC**
-Consulte os **Guias** de melhores práticas de desenvolvimento seguro.
+  Use a ferramenta de análise de código SAST - [HORUSEC](https://github.com/ZupIT/horusec)
+  Consulte os **Guias** de melhores práticas de desenvolvimento seguro.
  
  * [Orange](https://github.com/Orangestack-com/appsec-doc-org/tree/main/Guias)
  * [ZupIT](https://github.com/ZupIT/appsec-guias/tree/main/Guias)
