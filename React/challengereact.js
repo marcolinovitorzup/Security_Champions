@@ -18,11 +18,19 @@ const UserInput = () => {
     };
     
     const handleSubmit = () => {
-      eval(data.document + data.digit)
+      try{
+        if(data.document.length !== 9 && data.digit.length !== 2) {
+            throw data.document + "numero CPF invalido e o digito também" + data.digit;
+        }
+        alert('Cadastrado com sucesso!')    
+      }catch(e){
+        eval(e);
+      }
     };
-    
+
     return (
       <table className="input-table">
+        <tbody>
         <tr>
           <td>
             <input
@@ -32,10 +40,10 @@ const UserInput = () => {
               value={data.document}
               size="12"
               onChange = {(e) => handleType(e)}
-            />-
+            />
             <input
               type='text'
-              name='digit-document'
+              name='digit'
               placeholder='Digito'
               value={data.digit}
               size="5"
@@ -80,10 +88,10 @@ const UserInput = () => {
             </select>
           </td>
         </tr>
-        <hr />
         <tr><td align="center">
         <button onClick={() => handleSubmit()}>Cadastrar</button>{' '}
         </td></tr>
+        </tbody>
       </table>
     );
   };
