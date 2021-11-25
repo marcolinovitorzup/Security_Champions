@@ -58,3 +58,9 @@ module.exports = UserRequest
 Tela do banco de dados: 
 
 ![image](https://user-images.githubusercontent.com/90329628/141365554-585488de-831a-4610-b9ec-2127d161fd69.png)
+
+## Solução
+
+Primeiramente poderíamos implementar uma camada de autenticação JWT ou Oauth2 para aumentar o nível de segurança entre as requisições. Mas no caso o problema não foi esse. A senha está sendo trafegada sem a criptografia. E sendo criptografada apenas no momento que o JSON chega no construtor. Devido a isso, uma pessoa com intenções maliciosas poderia interceptar a requisição e ter em mãos usuário e senha. Podendo realizar login na plataforma e capturar as informações e registros que quisesse. E para mitigar ainda mais as vulnerabilidades do código, o desenvolvedor poderia
+sobreescrever os métodos toString dos campos de login e password. Para diminuir as possibilidades de que essas informações sejam vazadas em logs
+ou em outros processos.
