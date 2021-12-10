@@ -19,11 +19,3 @@ existia na plataforma. Com isso resolveu falar com o Gerente, que então entrou 
 Baseado no código abaixo, formule uma explicação do que pode ter ocorrido.
 
 O Controller da API no arquivo challenge.kt
-
-## Solução
-
-Os métodos POST e DELETE podem ser acessados pelas mesmas ROLES ("ROLE_ADMIN", "ROLE_CORRETOR"). Em um exemplo o corretor Victor poderia cadastrar o Imóvel A e o corretor Eduardo poderia deletar o Imóvel A e recadastralo com o seu usuário para receber a bonificação. Considerando o nível de simplicidade do código eu adicionaria uma camada de autenticação OAuth2 para garantir uma maior segurança das requisições feitas pelos usuários. E também para poder manter um registro das ações feitas pelos usuários nos sistemas.
-
-Com esse sistema de validação de usuário através do Oauth2, poderíamos adicionar uma validação no método DELETE para garantir que o corretor que está deletando o imóvel foi quem o cadastrou. Claro, partindo da premisa que o corpo da requisição de cadastro possua o id do corretor responsável pelo cadastro.
-
-Basicamente isso seria feito para garantir que um corretor não possa deletar o imóvel de outro corretor e recadastralo para si mesmo.
