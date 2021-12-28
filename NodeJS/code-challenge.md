@@ -59,4 +59,7 @@ Tela do banco de dados:
 
 ![image](https://user-images.githubusercontent.com/90329628/141365554-585488de-831a-4610-b9ec-2127d161fd69.png)
 
+## Resposta
+Após acessar o sistema, o hacker conseguiu identificar que era feita uma criptografia md5, sem nenhum parâmetro ou qualquer secret para criptografar o dado.
+Outra possibilidade é que a chamada pode ter sido interceptada entre o cliente e servidor, visto que o dado está sendo trafegado sem criptografia até chegar no servidor e ser inserido no banco.
 
