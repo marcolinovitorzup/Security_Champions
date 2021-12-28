@@ -19,3 +19,7 @@ existia na plataforma. Com isso resolveu falar com o Gerente, que então entrou 
 Baseado no código abaixo, formule uma explicação do que pode ter ocorrido.
 
 O Controller da API no arquivo challenge.kt
+
+## Resposta
+Para garantir a segurança, um corretor só poderá excluir um imóvel que ele mesmo tenha cadastrado. Por isso, todo imóvel deverá estar relacionado ao corretor.
+Lembrando que a exclusão deverá ser apenas lógica por motivos de auditoria e, caso seja feito o cadastro do mesmo imóvel, então este deverá ser versionado. Pode-se adotar também a não permissão de excluir pelo corretor, devendo este solicitar ao admin que o faço, para evitar que ocorra a mesma situção.
