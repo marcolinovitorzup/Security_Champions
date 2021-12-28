@@ -14,3 +14,6 @@ Dados dos clientes foram roubados. O back-end já confirmou, após uma análise 
 ## Resolução
 Decida qual é o problema baseado no código no arquivo challengereact.js
 
+## Resposta
+O ideal é que o estado da aplicação seja setado apenas antes de ser enviado ao backend. Não se deve alterar o estado da aplicação enquanto o usuário digita informações nos inputs. Além disso, visto que são informações sensíveis, deve-se analisar a necessidade de manter o dado no estado da aplicação no front-end.
+
